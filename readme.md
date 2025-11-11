@@ -98,10 +98,24 @@ Foi criada uma **instância EC2** para hospedar o servidor web Apache dentro da 
 | **Nome da Instância** | `Web Server 1` |
 | **Sistema Operacional** | Amazon Linux 2 |
 | **Tipo de Instância** | `t2.micro` |
-| **Sub-rede** | `lab-subnet-public1-us-east-1a` |
-| **IP Público** | Atribuído automaticamente |
 
 ![Instância](./images/9..png)
+
+### 🌐 Configuração de Rede da Instância
+
+A instância foi criada dentro da **sub-rede pública** da VPC, permitindo acesso direto à internet.  
+As configurações de rede aplicadas garantem que o tráfego flua corretamente entre os componentes da infraestrutura.
+
+| Parâmetro | Valor |
+|------------|--------|
+| **VPC** | `lab-vpc` |
+| **Sub-rede** | `lab-subnet-public2` |
+| **Endereço IPv4 Público** | Atribuído automaticamente |
+| **Grupo de Segurança** | `Web Security Group` |
+
+![Configuração de rede](./images/9.1.png)
+
+
 
 
 
