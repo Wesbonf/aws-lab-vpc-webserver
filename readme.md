@@ -38,9 +38,10 @@ Diagrama resumido mostrando a **VPC, sub-redes públicas e privadas, Internet Ga
 Foi criada a VPC `lab-vpc` com **IPv4 CIDR Block: 10.0.0.0/16** e as seguintes sub-redes:
 
 - **Sub-rede pública:** `10.0.2.0/24` → 256 endereços 
-![SubRede](./images/4.png)
+![SubRede](./images/4..png)
 
 - **Sub-rede privada:** `10.0.3.0/24` → 256 endereços
-- ![SubRede](./images/5.png)
+- ![SubRede](./images/5..png)
 
 Essa configuração permite **isolamento entre recursos públicos e privados** e prepara a VPC para futuras expansões.
+
