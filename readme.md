@@ -45,3 +45,16 @@ Foi criada a VPC `lab-vpc` com **IPv4 CIDR Block: 10.0.0.0/16** e as seguintes s
 
 Essa configuração permite **isolamento entre recursos públicos e privados** e prepara a VPC para futuras expansões.
 
+---
+## 🔁 Associação de Sub-redes
+
+As tabelas de rotas foram configuradas para garantir que as sub-redes corretas tenham acesso à internet conforme sua função:
+
+- **Tabela de rota privada:** `lab-rtb-private1-us-east-1a`  
+- **Sub-redes associadas:**  
+- `lab-subnet-private1-us-east-1a`  
+- `lab-subnet-private2-us-east-1b`
+
+- ![Associação](./images/6.1.png)
+
+
