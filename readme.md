@@ -65,7 +65,11 @@ As tabelas de rotas foram configuradas para garantir que as sub-redes corretas t
 - `lab-subnet-public1-us-east-1a`
 
 ![Associação](./images/7.1.png)
-  
+
+- **Tabela de rota privada:** `lab-rtb-public`
+
+![Associação](./images/7.2.png)
+
 
 
 
