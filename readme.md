@@ -70,6 +70,23 @@ As tabelas de rotas foram configuradas para garantir que as sub-redes corretas t
 
 ![Associação](./images/7.2.png)
 
+---
+
+## 🔒 Criação do Grupo de Segurança – Web Security Group
+
+Foi criado um **grupo de segurança** para controlar o tráfego de rede da instância web. Ele atua como um firewall virtual dentro da VPC, permitindo apenas o tráfego necessário para o servidor.
+| Parâmetro | Valor |
+|------------|--------|
+| **Nome** | `Web Security Group` |
+| **Descrição** | Enable HTTP access |
+| **VPC Associada** | `lab-vpc` |
+| **Tipo de Regra** | Entrada (Inbound) |
+| **Protocolo** | HTTP |
+| **Porta** | 80 |
+| **Origem** | Anywhere (0.0.0.0/0) |
+| **Descrição da Regra** | Permit web requests |
+
+![Criação do grupo de segurança](./images/8..png)
 
 
 
