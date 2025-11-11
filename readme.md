@@ -88,6 +88,24 @@ Foi criado um **grupo de segurança** para controlar o tráfego de rede da inst�
 
 ![Criação do grupo de segurança](./images/8..png)
 
+---
+## 💻 Criação da Instância EC2 – Servidor Web
+
+Foi criada uma **instância EC2** para hospedar o servidor web Apache dentro da sub-rede pública da VPC.
+
+| Parâmetro | Valor |
+|------------|--------|
+| **Nome da Instância** | `Web Server 1` |
+| **Sistema Operacional** | Amazon Linux 2 |
+| **Tipo de Instância** | `t2.micro` |
+| **Sub-rede** | `lab-subnet-public1-us-east-1a` |
+| **IP Público** | Atribuído automaticamente |
+
+![Instância](./images/9..png)
+
+
+
+
 
 
 
