@@ -50,11 +50,15 @@ Essa configuração permite **isolamento entre recursos públicos e privados** e
 
 As tabelas de rotas foram configuradas para garantir que as sub-redes corretas tenham acesso à internet conforme sua função:
 
-- **Tabela de rota privada:** `lab-rtb-private1-us-east-1a`  
 - **Sub-redes associadas:**  
 - `lab-subnet-private1-us-east-1a`  
 - `lab-subnet-private2-us-east-1b`
 
 - ![Associação](./images/6.1.png)
+
+- **Tabela de rota privada:** `lab-rtb-private1-us-east-1a`
+
+  - ![Associação](./images/6.2.png)
+
 
 
