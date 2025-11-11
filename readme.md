@@ -60,11 +60,13 @@ As tabelas de rotas foram configuradas para garantir que as sub-redes corretas t
 
 ![Associação](./images/6.2.png)
 
-- **Sub-redes associadas:**  
-- `lab-subnet-public1-us-east-1a`  
+- **Sub-redes associadas:**
 - `lab-subnet-public2`
+- `lab-subnet-public1-us-east-1a`
+
 ![Associação](./images/7.1.png)
   
+
 
 
 
